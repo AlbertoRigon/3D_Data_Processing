@@ -1,0 +1,4 @@
+/home/user/Desktop/3DP Lab3/cloud_registration/build/CMakeFiles/Registration.dir
+/home/user/Desktop/3DP Lab3/cloud_registration/build/CMakeFiles/registration.dir
+/home/user/Desktop/3DP Lab3/cloud_registration/build/CMakeFiles/edit_cache.dir
+/home/user/Desktop/3DP Lab3/cloud_registration/build/CMakeFiles/rebuild_cache.dir
