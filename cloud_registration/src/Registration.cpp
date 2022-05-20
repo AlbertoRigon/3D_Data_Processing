@@ -13,9 +13,9 @@ Registration::Registration(open3d::geometry::PointCloud cloud_source, open3d::ge
 {
   // TO COMPLETE
 
-  // Initializing point cloud variables with current source and target point clouds
-  cloud_source = source_;
-  cloud_target = target_;
+  // Initializing source and target point clouds with point cloud variables 
+  source_ = cloud_source;
+  target_ = cloud_target;
 }
 
 void Registration::draw_registration_result()
