@@ -82,7 +82,7 @@ open3d::pipelines::registration::RegistrationResult Registration::execute_global
   preprocess(source_, voxel_size, source_pcd_down_ptr, source_pcd_fpfh);
   preprocess(target_, voxel_size, target_pcd_down_ptr, target_pcd_fpfh);
 
-  open3d::pipelines::registration::RegistrationResult result;
+  /*open3d::pipelines::registration::RegistrationResult result;
 
   double distance_threshold = 0.5 * voxel_size;
 
@@ -92,9 +92,9 @@ open3d::pipelines::registration::RegistrationResult Registration::execute_global
         *source_pcd_fpfh,
         *target_pcd_fpfh,
         open3d::pipelines::registration::FastGlobalRegistrationOption(1.4, false, true, distance_threshold));
-        
+         */
 
-  /* // Defining distance threshold
+  // Defining distance threshold
   double distance_threshold = 1.5 * voxel_size;
 
   // Defining pruning algorithms for the pruning step
@@ -121,13 +121,9 @@ open3d::pipelines::registration::RegistrationResult Registration::execute_global
         3,
         correspondence_checkers,
         open3d::pipelines::registration::RANSACConvergenceCriteria(100000, 0.999));
- */
+
   // Update transformation
   set_transformation(result.transformation_);
-
-  // Update source and target point clouds
-  source_ = *source_pcd_down_ptr;
-  target_ = *target_pcd_down_ptr;
 
   // Return result
   return result;
