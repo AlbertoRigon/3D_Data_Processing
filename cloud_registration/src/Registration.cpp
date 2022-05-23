@@ -82,18 +82,6 @@ open3d::pipelines::registration::RegistrationResult Registration::execute_global
   preprocess(source_, voxel_size, source_pcd_down_ptr, source_pcd_fpfh);
   preprocess(target_, voxel_size, target_pcd_down_ptr, target_pcd_fpfh);
 
-  /*open3d::pipelines::registration::RegistrationResult result;
-
-  double distance_threshold = 0.5 * voxel_size;
-
-  result = open3d::pipelines::registration::FastGlobalRegistrationBasedOnFeatureMatching(
-        *source_pcd_down_ptr,
-        *target_pcd_down_ptr,
-        *source_pcd_fpfh,
-        *target_pcd_fpfh,
-        open3d::pipelines::registration::FastGlobalRegistrationOption(1.4, false, true, distance_threshold));
-         */
-
   // Defining distance threshold
   double distance_threshold = 1.5 * voxel_size;
 
