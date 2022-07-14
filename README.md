@@ -7,3 +7,5 @@ In particular, the original dataset counts about 30 labels, but in this assignme
 
 The main request was to complete the definition of the `PointNet` and `PointNetSeg` modules by implementing the
 `__init__` and `forward` methods. I used as reference for the original model the GitHub repository that you can find [here](https://github.com/fxia22/pointnet.pytorch/blob/master/pointnet/model.py).
+
+![image](http://stanford.edu/~rqi/pointnet/images/pointnet.jpg)
