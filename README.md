@@ -31,9 +31,9 @@ In the `../datasets` folder there are two simple test datasets and the correspon
 
 Here is the output point cloud obtained from *dataset 1*:
 
-![image](output_point_cloud.png?raw=true)
-
-
+<p align="center">
+  <img src="https://github.com/AlbertoRigon/3D_Data_Processing/blob/Structure_from_Motion/output_point_cloud.png?raw=true" alt="Sublime's custom image"/>
+</p>
 
 
 
