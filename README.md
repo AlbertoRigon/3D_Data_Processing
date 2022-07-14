@@ -27,6 +27,12 @@ Notice that the above executables are found in the `bin` folder.
 
 In the `../datasets` folder there are two simple test datasets and the corresponding calibration parameter file.
 
+### Results
+
+Here is a the output point cloud obtained from 
+
+![image](http://stanford.edu/~rqi/pointnet/images/pointnet.jpg)
+
 
 
 
