@@ -95,7 +95,7 @@ void FeatureMatcher::writeToFile ( const std::string& filename, bool normalize_p
   cv::Mat dst_pts;
   if(normalize_points)
   {
-    cv::Mat src_obs( num_observations_,1, cv::DataType<cv::Vec2d>::type, const_cast<double *>(observations_.data()));
+    cv::Mat src_obs( num_observations_,1, cv::traits::Type<cv::Vec2d>::value, const_cast<double *>(observations_.data()));
     cv::undistortPoints(src_obs, dst_pts, new_intrinsics_matrix_, cv::Mat());
     tmp_observations = reinterpret_cast<double *>(dst_pts.data);
   }
