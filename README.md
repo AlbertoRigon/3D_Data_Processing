@@ -20,6 +20,8 @@ Then, you can run the whole Structure from Motion pipeline as follows:
 
     ./basic_sfm <input data file> <output ply file>
     ./matcher <calibration parameters filename> <images folder filename><output data file> [focal length scale]
+    
+Notice that the above executables are found in the **bin** folder.
 
 ### Datasets
 
