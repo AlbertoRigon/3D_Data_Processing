@@ -1,2 +1,2 @@
-# HW_3DP
+# Stereo Matching
 Repository for 3D Data Processing homeworks.
