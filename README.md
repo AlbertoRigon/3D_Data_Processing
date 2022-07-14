@@ -29,9 +29,11 @@ In the `../datasets` folder there are two simple test datasets and the correspon
 
 ### Results
 
-Here is a the output point cloud obtained from 
+Here is the output point cloud obtained from *dataset 1*:
 
-![image](http://stanford.edu/~rqi/pointnet/images/pointnet.jpg)
+![image](output_point_cloud.png?raw=true)
+
+
 
 
 
