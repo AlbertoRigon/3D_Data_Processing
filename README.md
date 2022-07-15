@@ -29,7 +29,7 @@ To execute:
 ### Results
 
 <p align="center">
-  <img src="https://github.com/AlbertoRigon/3D_Data_Processing/blob/Point_Cloud_Registration/results.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/AlbertoRigon/3D_Data_Processing/blob/Point_Cloud_Registration/results.png" width="500" height="500"/>
 </p>
 
 
