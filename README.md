@@ -26,20 +26,20 @@ Below are reported the output left and right disparity maps obtained with the 3 
 
 - **Aloe**
 <p align="center">
-  <img src="https://github.com/AlbertoRigon/3D_Data_Processing/blob/Stereo_Matching/imgs/left_aloe.png?raw=true"/>
-  <img src="https://github.com/AlbertoRigon/3D_Data_Processing/blob/Stereo_Matching/imgs/right_aloe.png?raw=true"/>
+  <img src="https://github.com/AlbertoRigon/3D_Data_Processing/blob/Stereo_Matching/imgs/left_aloe.png?raw=true" width="377" height="270"/>
+  <img src="https://github.com/AlbertoRigon/3D_Data_Processing/blob/Stereo_Matching/imgs/right_aloe.png?raw=true" width="377" height="270"/>
 </p>
 
 - **Cones**
 <p align="center">
-  <img src="https://github.com/AlbertoRigon/3D_Data_Processing/blob/Stereo_Matching/imgs/left_cones.png?raw=true"/>
-  <img src="https://github.com/AlbertoRigon/3D_Data_Processing/blob/Stereo_Matching/imgs/right_cones.png?raw=true"/>
+  <img src="https://github.com/AlbertoRigon/3D_Data_Processing/blob/Stereo_Matching/imgs/left_cones.png?raw=true" width="377" height="270"/>
+  <img src="https://github.com/AlbertoRigon/3D_Data_Processing/blob/Stereo_Matching/imgs/right_cones.png?raw=true" width="377" height="270"/>
 </p>
 
 - **Rocks1**
 <p align="center">
-  <img src="https://github.com/AlbertoRigon/3D_Data_Processing/blob/Stereo_Matching/imgs/left_rocks.png?raw=true"/>
-  <img src="https://github.com/AlbertoRigon/3D_Data_Processing/blob/Stereo_Matching/imgs/right_rocks.png?raw=true"/>
+  <img src="https://github.com/AlbertoRigon/3D_Data_Processing/blob/Stereo_Matching/imgs/left_rocks.png?raw=true" width="377" height="270"/>
+  <img src="https://github.com/AlbertoRigon/3D_Data_Processing/blob/Stereo_Matching/imgs/right_rocks.png?raw=true" width="377" height="270"/>
 </p>
 
 
