@@ -9,7 +9,7 @@ The main request was to complete the definition of the `PointNet` and `PointNetS
 `__init__` and `forward` methods. I used as reference for the original model the GitHub repository that you can find [here](https://github.com/fxia22/pointnet.pytorch/blob/master/pointnet/model.py).
 
 ### Experiments
-I made two different experiments:
+I tried two different experiments:
 1. Remove the third and fourth MLPs (i.e., `MLP(256,128)` and `MLP(128, self.classes)`) from the `PointNetSeg` model and replace it by directly mapping the feature maps of size 256 to the size equal to the number of classes (i.e., by adding instead a `MLP(256, self.classes)`)
 2. Add two MLPs `MLP(64,64)` to the `PointNet` model before `MLP(64,128)` and another MLP `MLP(128,128)` to `PointNetSeg` before `MLP(128, self.classes)`
 
