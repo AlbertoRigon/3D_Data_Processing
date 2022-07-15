@@ -9,6 +9,21 @@ images. In particular, the goal was to extend the `process()` method by implemen
 
 Notice that this implementation just finds disparities rather than planes.
 
+### Usage
+
+To compile open a terminal from the parent folder of ```patchmatch``` and type the following commands in order:
+```
+cd patchmatch
+mkdir build && cd build
+cmake ..
+make 
+```
+Execute it using:
+```
+./patchmatch path/to/dataset
+```
+where `path/to/dataset` is the path of the directory containing the pair of images from which the disparity maps will be extracted.
+
 ### Results
 In this section the results obtained are reported, including the left and right MSE error and the disparity maps obtained
 for all datasets. 
